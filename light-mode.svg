@@ -54,30 +54,4 @@ text, tspan { white-space: pre; }
 <tspan x="15" y="830">    @@  @@ @@@@@@@ .@ . #    .@@@ @@ : .- @@:*.*   @  @@@#@.       </tspan>
 </text>
 
-<text x="390" y="30" fill="#24292f">
-
-<tspan x="390" y="30">valentina@vugin</tspan>
-<tspan x="390" y="50" class="cc">----------------------------------------------</tspan>
-
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Role</tspan>: <tspan class="value">Digital Technology Student</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">University</tspan>: <tspan class="value">Universidad Torcuato Di Tella</tspan>
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Focus</tspan>: <tspan class="value">Software Engineering</tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>: <tspan class="value">Windows, Linux</tspan>
-<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">IDE</tspan>: <tspan class="value">VS Code</tspan>
-
-<tspan x="390" y="190">- Tech Stack ---------------------------------</tspan>
-
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Programming</tspan>: <tspan class="value">JavaScript, Python, C++, C#, C</tspan>
-<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Web</tspan>: <tspan class="value">HTML, CSS, SQL</tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Frameworks</tspan>: <tspan class="value">React Native, Vue.js, Node.js</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Tools</tspan>: <tspan class="value">Git, GitHub, Figma, Supabase</tspan>
-<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Interests</tspan>: <tspan class="value">Cybersecurity, Networks, UX/UI</tspan>
-
-<tspan x="390" y="330">- Contact ------------------------------------</tspan>
-
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email.Personal</tspan>: <tspan class="value">valenzabot@gmail.com</tspan>
-<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Email.Work</tspan>: <tspan class="value">valenkra.contacto@gmail.com</tspan>
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>: <tspan class="value">valenkra</tspan>
-
-</text>
 </svg>
