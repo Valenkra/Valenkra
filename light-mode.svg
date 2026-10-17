@@ -1,22 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="monospace" width="985px" height="530px" font-size="16px">
 <style>
-@font-face {
-src: local('Consolas'), local('Consolas Bold');
-font-family: 'ConsolasFallback';
-font-display: swap;
--webkit-size-adjust: 109%;
-size-adjust: 109%;
-}
+
 .key {fill: #953800;}
 .value {fill: #0a3069;}
 .addColor {fill: #1a7f37;}
 .delColor {fill: #cf222e;}
 .cc {fill: #c2cfde;}
-text, tspan {white-space: pre;}
+text, tspan { white-space: pre; }
 </style>
 <rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
-<text fill="#24292f" class="ascii" transform="translate(-20, 10) scale(0.60)" xml:space="preserve">
+<text fill="#24292f" class="ascii" transform="translate(5, 10) scale(0.55)" xml:space="preserve">
 <tspan x="15" y="30">                                      # @@@ @  #@@@</tspan>
 <tspan x="15" y="50">                                   ##@+@@ @@@@@@@@ @ @</tspan>
 <tspan x="15" y="70">                                 *@@@@#+. ##@@@ =  .@ @</tspan>
