@@ -1,97 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="985px" height="530px" font-size="16px">
-<style>
-@font-face {
-src: local('Consolas'), local('Consolas Bold');
-font-family: 'ConsolasFallback';
-font-display: swap;
--webkit-size-adjust: 109%;
-size-adjust: 109%;
-}
-.key {fill: #953800;}
-.value {fill: #0a3069;}
-.addColor {fill: #1a7f37;}
-.delColor {fill: #cf222e;}
-.cc {fill: #c2cfde;}
-text, tspan {white-space: pre;}
-</style>
-<rect width="985px" height="530px" fill="#f6f8fa" rx="15"/>
-<text fill="#24292f" class="ascii" transform="translate(-20, 10) scale(0.60)" xml:space="preserve">
-<tspan x="15" y="30">                                      # @@@ @  #@@@</tspan>
-<tspan x="15" y="50">                                   ##@+@@ @@@@@@@@ @ @</tspan>
-<tspan x="15" y="70">                                 *@@@@#+. ##@@@ =  .@ @</tspan>
-<tspan x="15" y="90">                                @@@..        .#@@@# @ @@@</tspan>
-<tspan x="15" y="110">                                @@       .       #@ #.@ @</tspan>
-<tspan x="15" y="130">                               @@-    .   .       @##. @@@</tspan>
-<tspan x="15" y="150">                              ###   .            .#.  #* .@</tspan>
-<tspan x="15" y="170">                             .@.            %%*  .#.#.@@.@@</tspan>
-<tspan x="15" y="190">                             .@.@@@@@. +.@@:.    :#. @@@.@@</tspan>
-<tspan x="15" y="210">                             .@   #.#. . :%#@@@@####.#+@+@.#</tspan>
-<tspan x="15" y="230">                             .@-@ @@@#  .#+##*..:..-.##@..@@</tspan>
-<tspan x="15" y="250">                             #+..+-.         ......:+ =@ .@@.</tspan>
-<tspan x="15" y="270">                            . @     .    .*:        .@#@# @@</tspan>
-<tspan x="15" y="290">                            @@@  .## ##.@%.#*-. .    @*@= :@</tspan>
-<tspan x="15" y="310">                            %@@+ ... ..=..   ..:. ..#.@@# @</tspan>
-<tspan x="15" y="330">                          . @@#@..+. ########@+...*+#. %# @</tspan>
-<tspan x="15" y="350">                           .@.#@@  ..+#*###.... ..=+@ #@:+#+</tspan>
-<tspan x="15" y="370">                            .:@@@@-   .=#.. .....:@. ##-@. #</tspan>
-<tspan x="15" y="390">                            #@ @@@@@-         ..#%=#@@.#.% @</tspan>
-<tspan x="15" y="410">                 .@:%     @  %.@@@@@@@+....-=%@%@@@=#@#+.@@@</tspan>
-<tspan x="15" y="430">               @@@@+@@@@.  :=%@@@@@@@@@=*@@@%@@@@@..*@+.#@@</tspan>
-<tspan x="15" y="450">               @@@@@ @ :#  *@#:@@@@@@@@ . . .@@.+=+=#@:=#%.  @</tspan>
-<tspan x="15" y="470">              @@@@@@@- @ :...@-@@@@@@=@ ....#+@@@@#.%.@ +.@</tspan>
-<tspan x="15" y="490">             @@@@@@@@- #  +*#.@+@@@@@@@@@@@@@@@   .:@.%#%#@  -</tspan>
-<tspan x="15" y="510">        -   .@@@@@ - -#=+@@@* @ @@@@@@@@@@@@## @@@%+% @-@@+* # +</tspan>
-<tspan x="15" y="530">      - @   -@@@@ +--: @#@=@ @ @*@@@@@@@@@@@# @@@@ @@ @ </tspan>
-<tspan x="15" y="550">       @-  @ @@@@  *@ :## =@ #@ -@@@@@@@@@@@  .@@  %.@@:@.##.@ </tspan>
-<tspan x="15" y="570">       :  @@@@ @@@-: .%@@@@@ @ @@@@@@@@@@@ @  #%=.. @@* @.# # .@@ </tspan>
-<tspan x="15" y="590">      :@+ @@@@@@  @-@@#.@ .@#.#%@@@@@@@@@%-@@ #-#. #*#@@%  #@ @</tspan>
-<tspan x="15" y="610">        @ @@@@% *    *#@##.@=*##@@@@@@@ @@.@@  # @   * @ #@#%@ </tspan>
-<tspan x="15" y="630">     -@ @@@@@  @  ##@@@ .@%@%  #@@@@@@= .@@  # +%@.###@@## @</tspan>
-<tspan x="15" y="650">       @@@@@ -- -#@- ..##@.%@@.@@@@@@@@#: -@% @@=.%# ..@# @#@+ @  =@</tspan>
-<tspan x="15" y="670">     @ @@@@  : -.@: -@ - @=@#*@ +@@@@@.--@ @@=### .@.# *.=% @.@. @</tspan>
-<tspan x="15" y="690">    :=:..@:.@@ @#-= @.=.@@:@ @.@@.*@@@@. -.%...  ### ### ..@   @</tspan>
-<tspan x="15" y="710">     :@@@: @@    - @@+ .  @.%:.##+@@@@@ +=:. @ @###:.@  .#@@ @ *  </tspan>
-<tspan x="15" y="730">    .@@   @@@ - * @@.#.#%.  .% ##@@@@@@-%* #%#.% @#*+#.#.  @#--@@@@@</tspan>
-<tspan x="15" y="750">     %  -%:@    @. @# .% *@..#@ .@@@@@@  --#@..@#=#@@##   @ :@%#: -  </tspan>
-<tspan x="15" y="770">    @ -.   @:  @@@@ =@@ =  =@.:  .@@@@@@.+#### #.#@.#   @.-.# . :.   </tspan>
-<tspan x="15" y="790">    @* . -@% @@@@..#*@ @@ .@ @ @@#@@@@ +.=** =..# = .##.# @*@-.@@</tspan>
-<tspan x="15" y="810">    -+ @@@- @@@@ @@#@@ %@ * @.@## @@@@ -- @#%.@ -# #@. @ #%@@@ @..- </tspan>
-<tspan x="15" y="830">    @@  @@ @@@@@@@ .@ . #    .@@@ @@ : .- @@:*.*   @  @@@#@.       </tspan>
-</text>
-
-<text x="390" y="30" fill="#24292f">
-
-<tspan x="390" y="30">valentina@vugin</tspan>
-<tspan x="390" y="50" class="cc">----------------------------------------------</tspan>
-
-<tspan x="390" y="70" class="cc">. </tspan><tspan class="key">Role</tspan>: <tspan class="value">Digital Technology Student</tspan>
-<tspan x="390" y="90" class="cc">. </tspan><tspan class="key">University</tspan>: <tspan class="value">Universidad Torcuato Di Tella</tspan>
-<tspan x="390" y="110" class="cc">. </tspan><tspan class="key">Focus</tspan>: <tspan class="value">Software Engineering</tspan>
-<tspan x="390" y="130" class="cc">. </tspan><tspan class="key">OS</tspan>: <tspan class="value">Windows, Linux</tspan>
-<tspan x="390" y="150" class="cc">. </tspan><tspan class="key">IDE</tspan>: <tspan class="value">VS Code</tspan>
-
-<tspan x="390" y="190">- Tech Stack ---------------------------------</tspan>
-
-<tspan x="390" y="210" class="cc">. </tspan><tspan class="key">Programming</tspan>: <tspan class="value">JavaScript, Python, C++, C#, C</tspan>
-<tspan x="390" y="230" class="cc">. </tspan><tspan class="key">Web</tspan>: <tspan class="value">HTML, CSS, SQL</tspan>
-<tspan x="390" y="250" class="cc">. </tspan><tspan class="key">Frameworks</tspan>: <tspan class="value">React Native, Vue.js, Node.js</tspan>
-<tspan x="390" y="270" class="cc">. </tspan><tspan class="key">Tools</tspan>: <tspan class="value">Git, GitHub, Figma, Supabase</tspan>
-<tspan x="390" y="290" class="cc">. </tspan><tspan class="key">Interests</tspan>: <tspan class="value">Cybersecurity, Networks, UX/UI</tspan>
-
-<tspan x="390" y="330">- Contact ------------------------------------</tspan>
-
-<tspan x="390" y="350" class="cc">. </tspan><tspan class="key">Email.Personal</tspan>: <tspan class="value">valenzabot@gmail.com</tspan>
-<tspan x="390" y="370" class="cc">. </tspan><tspan class="key">Email.Work</tspan>: <tspan class="value">valenkra.contacto@gmail.com</tspan>
-<tspan x="390" y="390" class="cc">. </tspan><tspan class="key">LinkedIn</tspan>: <tspan class="value">valenkra</tspan>
-
-<tspan x="390" y="450">- GitHub Stats -------------------------------</tspan>
-
-<tspan x="390" y="470" class="cc">. </tspan><tspan class="key">Repos</tspan>: <tspan class="value" id="repo_data">95</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value" id="contrib_data">133</tspan>} | <tspan class="key">Stars</tspan>: <tspan class="cc" id="star_data_dots"> </tspan><tspan class="value" id="star_data">342</tspan><tspan class="cc" id="repo_data_dots"></tspan>
-
-<tspan x="390" y="490" class="cc">. </tspan><tspan class="key">Commits</tspan>: <tspan class="cc" id="commit_data_dots"> </tspan><tspan class="value" id="commit_data">2,116</tspan> | <tspan class="key">Followers</tspan>: <tspan class="cc" id="follower_data_dots"> </tspan><tspan class="value" id="follower_data">196</tspan>
-
-<tspan x="390" y="510" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>: <tspan class="cc" id="loc_data_dots"> </tspan><tspan class="value" id="loc_data">446,276</tspan> (<tspan class="addColor" id="loc_add">523,178</tspan><tspan class="addColor">++</tspan>, <tspan class="delColor" id="loc_del">76,902</tspan><tspan class="delColor">--</tspan>)
-
-</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="515" viewBox="0 0 985 515"><rect height="515" rx="15" fill="#f6f8fa" width="985"/>
+  <text fill="#24292f" font-family="monospace" font-size="16" transform="translate(-8 25) scale(0.6)" xml:space="preserve">
+    <tspan x="15" y="30">                                      # @@@ @  #@@@</tspan>
+    <tspan x="15" y="50">                                   ##@+@@ @@@@@@@@ @ @</tspan>
+    <tspan x="15" y="70">                                 *@@@@#+. ##@@@ =  .@ @</tspan>
+    <tspan x="15" y="90">                                @@@..        .#@@@# @ @@@</tspan>
+    <tspan x="15" y="110">                                @@       .       #@ #.@ @</tspan>
+    <tspan x="15" y="130">                               @@-    .   .       @##. @@@</tspan>
+    <tspan x="15" y="150">                              ###   .            .#.  #* .@</tspan>
+    <tspan x="15" y="170">                             .@.            %%*  .#.#.@@.@@</tspan>
+    <tspan x="15" y="190">                             .@.@@@@@. +.@@:.    :#. @@@.@@</tspan>
+    <tspan x="15" y="210">                             .@   #.#. . :%#@@@@####.#+@+@.#</tspan>
+    <tspan x="15" y="230">                             .@-@ @@@#  .#+##*..:..-.##@..@@</tspan>
+    <tspan x="15" y="250">                             #+..+-.         ......:+ =@ .@@.</tspan>
+    <tspan x="15" y="270">                            . @     .    .*:        .@#@# @@</tspan>
+    <tspan x="15" y="290">                            @@@  .## ##.@%.#*-. .    @*@= :@</tspan>
+    <tspan x="15" y="310">                            %@@+ ... ..=..   ..:. ..#.@@# @</tspan>
+    <tspan x="15" y="330">                          . @@#@..+. ########@+...*+#. %# @</tspan>
+    <tspan x="15" y="350">                           .@.#@@  ..+#*###.... ..=+@ #@:+#+</tspan>
+    <tspan x="15" y="370">                            .:@@@@-   .=#.. .....:@. ##-@. #</tspan>
+    <tspan x="15" y="390">                            #@ @@@@@-         ..#%=#@@.#.% @</tspan>
+    <tspan x="15" y="410">                 .@:%     @  %.@@@@@@@+....-=%@%@@@=#@#+.@@@</tspan>
+    <tspan x="15" y="430">               @@@@+@@@@.  :=%@@@@@@@@@=*@@@%@@@@@..*@+.#@@</tspan>
+    <tspan x="15" y="450">               @@@@@ @ :#  *@#:@@@@@@@@ . . .@@.+=+=#@:=#%.  @</tspan>
+    <tspan x="15" y="470">              @@@@@@@- @ :...@-@@@@@@=@ ....#+@@@@#.%.@ +.@</tspan>
+    <tspan x="15" y="490">             @@@@@@@@- #  +*#.@+@@@@@@@@@@@@@@@   .:@.%#%#@  -</tspan>
+    <tspan x="15" y="510">        -   .@@@@@ - -#=+@@@* @ @@@@@@@@@@@@## @@@%+% @-@@+* # +</tspan>
+    <tspan x="15" y="530">      - @   -@@@@ +--: @#@=@ @ @*@@@@@@@@@@@# @@@@ @@ @ </tspan>
+    <tspan x="15" y="550">       @-  @ @@@@  *@ :## =@ #@ -@@@@@@@@@@@  .@@  %.@@:@.##.@ </tspan>
+    <tspan x="15" y="570">       :  @@@@ @@@-: .%@@@@@ @ @@@@@@@@@@@ @  #%=.. @@* @.# # .@@ </tspan>
+    <tspan x="15" y="590">      :@+ @@@@@@  @-@@#.@ .@#.#%@@@@@@@@@%-@@ #-#. #*#@@%  #@ @</tspan>
+    <tspan x="15" y="610">        @ @@@@% *    *#@##.@=*##@@@@@@@ @@.@@  # @   * @ #@#%@ </tspan>
+    <tspan x="15" y="630">     -@ @@@@@  @  ##@@@ .@%@%  #@@@@@@= .@@  # +%@.###@@## @</tspan>
+    <tspan x="15" y="650">       @@@@@ -- -#@- ..##@.%@@.@@@@@@@@#: -@% @@=.%# ..@# @#@+ @  =@</tspan>
+    <tspan x="15" y="670">     @ @@@@  : -.@: -@ - @=@#*@ +@@@@@.--@ @@=### .@.# *.=% @.@. @</tspan>
+    <tspan x="15" y="690">    :=:..@:.@@ @#-= @.=.@@:@ @.@@.*@@@@. -.%...  ### ### ..@   @</tspan>
+    <tspan x="15" y="710">     :@@@: @@    - @@+ .  @.%:.##+@@@@@ +=:. @ @###:.@  .#@@ @ *  </tspan>
+    <tspan x="15" y="730">    .@@   @@@ - * @@.#.#%.  .% ##@@@@@@-%* #%#.% @#*+#.#.  @#--@@@@@</tspan>
+    <tspan x="15" y="750">     %  -%:@    @. @# .% *@..#@ .@@@@@@  --#@..@#=#@@##   @ :@%#: -  </tspan>
+    <tspan x="15" y="770">    @ -.   @:  @@@@ =@@ =  =@.:  .@@@@@@.+#### #.#@.#   @.-.# . :.   </tspan>
+  </text>
+<text x="390" y="30" font-family="monospace" font-size="12.5" fill="#24292f">valen@vugin</text><text x="390" y="50" font-family="monospace" font-size="12.5" fill="#24292f">-———————————————————————————————————————————————————————————————————————————————————</text><text x="390" y="70" font-family="monospace" font-size="12.5" fill="#953800">. Role:</text><text y="70" font-family="monospace" font-size="12.5" fill="#8c959f" x="440"> ..................................................</text><text x="965" y="70" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">Digital Technology Student</text><text x="390" y="90" font-family="monospace" font-size="12.5" fill="#953800">. University:</text><text y="90" font-family="monospace" font-size="12.5" fill="#8c959f" x="480"> .........................................</text><text x="965" y="90" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">Universidad Torcuato Di Tella</text><text x="390" y="110" font-family="monospace" font-size="12.5" fill="#953800">. Focus:</text><text x="457.8" y="110" font-family="monospace" font-size="12.5" fill="#8c959f"> .............................................. </text><text x="965" y="110" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">Software Engineering</text><text x="390" y="130" font-family="monospace" font-size="12.5" fill="#953800">. OS:</text><text x="435.2" y="130" font-family="monospace" font-size="12.5" fill="#8c959f"> ....................................................... </text><text x="965" y="130" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">Windows, Linux</text><text x="390" y="150" font-family="monospace" font-size="12.5" fill="#953800">. IDE:</text><text x="442.7" y="150" font-family="monospace" font-size="12.5" fill="#8c959f"> ............................................................. </text><text x="965" y="150" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">VS Code</text><text x="390" y="190" font-family="monospace" font-size="12.5" fill="#24292f">- Tech Stack ———————————————————————————————————————————————————————————————————————</text><text x="390" y="210" font-family="monospace" font-size="12.5" fill="#953800">. Programming:</text><text x="502.9" y="210" font-family="monospace" font-size="12.5" fill="#8c959f"> .............................. </text><text x="965" y="210" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">JavaScript, Python, C++, C#, C</text><text x="390" y="230" font-family="monospace" font-size="12.5" fill="#953800">. Web:</text><text x="442.7" y="230" font-family="monospace" font-size="12.5" fill="#8c959f"> ...................................................... </text><text x="965" y="230" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">HTML, CSS, SQL</text><text x="390" y="250" font-family="monospace" font-size="12.5" fill="#953800">. Frameworks:</text><text x="495.4" y="250" font-family="monospace" font-size="12.5" fill="#8c959f"> ................................ </text><text x="965" y="250" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">React Native, Vue.js, Node.js</text><text x="390" y="270" font-family="monospace" font-size="12.5" fill="#953800">. Tools:</text><text x="457.8" y="270" font-family="monospace" font-size="12.5" fill="#8c959f"> ...................................... </text><text x="965" y="270" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">Git, GitHub, Figma, Supabase</text><text x="390" y="290" font-family="monospace" font-size="12.5" fill="#953800">. Interests:</text><text x="487.9" y="290" font-family="monospace" font-size="12.5" fill="#8c959f"> ................................ </text><text x="965" y="290" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">Cybersecurity, Networks, UX/UI</text><text x="390" y="330" font-family="monospace" font-size="12.5" fill="#24292f">- Contact ——————————————————————————————————————————————————————————————————————————</text><text x="390" y="350" font-family="monospace" font-size="12.5" fill="#953800">. Email.Personal:</text><text x="525.5" y="350" font-family="monospace" font-size="12.5" fill="#8c959f"> ..................................... </text><text x="965" y="350" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">valenzabot@gmail.com</text><text x="390" y="370" font-family="monospace" font-size="12.5" fill="#953800">. Email.Work:</text><text x="495.4" y="370" font-family="monospace" font-size="12.5" fill="#8c959f"> .................................. </text><text x="965" y="370" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">valenkra.contacto@gmail.com</text><text x="390" y="390" font-family="monospace" font-size="12.5" fill="#953800">. LinkedIn:</text><text x="480.4" y="390" font-family="monospace" font-size="12.5" fill="#8c959f"> ....................................................... </text><text x="965" y="390" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069">valenkra</text><text x="390" y="430" font-family="monospace" font-size="12.5" fill="#24292f">- GitHub Stats —————————————————————————————————————————————————————————————————————</text><text x="390.0" y="450" font-family="monospace" font-size="12.5" fill="#953800">. Repos:</text><text x="572.7" y="450" font-family="monospace" font-size="12.5" text-anchor="end" fill="#0a3069"><tspan id="repo_data">0</tspan></text><text x="457.8" y="450" font-family="monospace" font-size="12.5" fill="#8c959f"> .............</text><text x="581.7" y="450" font-family="monospace" font-size="12.5" fill="#953800">Contributed:</text><text x="764.3" y="450" font-family="monospace" font-size="12.5" text-anchor="end" fill="#0a3069"><tspan id="contrib_data">0</tspan></text><text x="679.6" y="450" font-family="monospace" font-size="12.5" fill="#8c959f"> .........</text><text x="773.3" y="450" font-family="monospace" font-size="12.5" fill="#953800">Stars:</text><text x="965.0" y="450" font-family="monospace" font-size="12.5" text-anchor="end" fill="#0a3069"><tspan id="star_data">0</tspan></text><text x="826.0" y="450" font-family="monospace" font-size="12.5" fill="#8c959f"> ................</text><text x="390.0" y="470" font-family="monospace" font-size="12.5" fill="#953800">. Commits:</text><text x="668.5" y="470" font-family="monospace" font-size="12.5" text-anchor="end" fill="#0a3069"><tspan id="commit_data">0</tspan></text><text x="472.8" y="470" font-family="monospace" font-size="12.5" fill="#8c959f"> .......................</text><text x="677.5" y="470" font-family="monospace" font-size="12.5" fill="#953800">Followers:</text><text x="965.0" y="470" font-family="monospace" font-size="12.5" text-anchor="end" fill="#0a3069"><tspan id="follower_data">0</tspan></text><text x="760.3" y="470" font-family="monospace" font-size="12.5" fill="#8c959f"> .........................</text><text x="390" y="490" font-family="monospace" font-size="12.5" fill="#953800">. Lines of Code:</text><text x="518.0" y="490" font-family="monospace" font-size="12.5" fill="#8c959f"> ....................................................... </text><text x="965" y="490" text-anchor="end" font-family="monospace" font-size="12.5" fill="#0a3069"><tspan id="loc_data">N/A</tspan></text><text x="690" y="510" font-family="monospace" font-size="11" fill="#8c959f"><tspan>Added: </tspan><tspan id="loc_add" fill="#1a7f37">N/A</tspan><tspan> ++   Deleted: </tspan><tspan id="loc_del" fill="#cf222e">N/A</tspan><tspan> --</tspan></text><tspan id="repo_data_dots"/><tspan id="star_data_dots"/><tspan id="commit_data_dots"/><tspan id="follower_data_dots"/><tspan id="loc_data_dots"/></svg>
